@@ -6,7 +6,7 @@ from urllib.parse import urlparse
 from aiogram import Bot, Dispatcher, executor, types
 pattern = '^https:\/\/www\.beatport\.com\/track\/[\w -]+\/\d+$'
 
-API_TOKEN = '5930894396:AAH2XUH0P3mlVBrl2OIZy-kvqi00H5WPldY'
+API_TOKEN = '6396315969:AAGOob69X_w6tMXy2zuS1hsp5PCHjvavot8'
 
 # Configure logging
 logging.basicConfig(level=logging.INFO)
