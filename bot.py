@@ -6,7 +6,7 @@ from urllib.parse import urlparse
 from aiogram import Bot, Dispatcher, executor, types
 pattern = '^https:\/\/www\.beatport\.com\/track\/[\w -]+\/\d+$'
 
-API_TOKEN = '5930894396:AAH2XUH0P3mlVBrl2OIZy-kvqi00H5WPldY'
+API_TOKEN = '6396315969:AAGOob69X_w6tMXy2zuS1hsp5PCHjvavot8'
 
 # Configure logging
 logging.basicConfig(level=logging.INFO)
@@ -18,7 +18,7 @@ dp = Dispatcher(bot)
 
 @dp.message_handler(commands=['start', 'help'])
 async def send_welcome(message: types.Message):
-    await message.answer("🤖 Hey There\!!\, I\'m Beatport Downloader Bot ⚡ Developed by \@piklujazz\n\n🗣️ Supported Command\:\n\/download \<track\_url\>\nTo download track\, 💫☢️", parse_mode=types.ParseMode.MARKDOWN_V2)
+    await message.answer("Hey", parse_mode=types.ParseMode.MARKDOWN_V2)
 
 
 
